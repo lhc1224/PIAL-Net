@@ -59,21 +59,21 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
 ## 📊 Experimental Results <a name="7"></a> 
 
 <p align="center">
-    <img src="./img/result1.png" width="800"/> <br />
+    <img src="./img/result1.jpg" width="800"/> <br />
     <em> 
     </em>
 </p>
 
-**The results of different methods on AGD20k.** The best results are in bold. “Seen” means that the training set and the test set contain the same object categories, while “Unseen” means that the object categories in the training set and the test set do not overlap. The * defines the relative improvement of our method over other methods. “Dark red”, “Orange” and “Purple” represent saliency detection, weakly supervised object localization and affordance grounding models, respectively.
+**The results of different methods on the CAL dataset.** 
 
 <p align="center">
-    <img src="./img/result2.png" width="800"/> <br />
+    <img src="./img/result2.jpg" width="800"/> <br />
     <em> 
     </em>
 </p>
 
 
-**Visual affordance heatmaps on the AGD20K dataset.** We select the prediction results of representative methods of affordance grounding (Hotspots [33]), weakly supervised object localization (EIL [30]), and saliency detection (DeepGazeII [21]) for presentation.
+**Visualization of prediction results.** We show the visualization results of our model, few-shot segmentation (HSNet [33]), the best human pose estimation model (HRFormer [68]) and the segmentation model (SegFormer [61]).
 
 ## ✉️ Statement <a name="8"></a> 
 This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
@@ -83,6 +83,8 @@ This project is for research purpose only, please contact us for the licence of 
 1.The paper "One-Shot Affordance Detection" was accepted by IJCAI2021 and the corresponding paper and code are available from [https://github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
 
 2.The language-annotated PAD-L dataset is available for download via [ [link](https://arxiv.org/abs/2202.12076) ], and related papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
+
+3. The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from the [[https://github.com/yyvhang/IAGNet](https://github.com/yyvhang/IAGNet)]
 
 ## 🔍 Citation <a name="9"></a> 
 
