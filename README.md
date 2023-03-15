@@ -81,7 +81,9 @@ This project is for research purpose only, please contact us for the licence of 
 ## ✨ Other Relevant Works <a name="9"></a> 
 
 1.The paper "One-Shot Affordance Detection" was accepted by IJCAI2021 and the corresponding paper and code are available from [https://github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
+
 2.The language-annotated PAD-L dataset is available for download via [ [link](https://arxiv.org/abs/2202.12076) ], and related papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
+
 3. The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from [https://github.com/yyvhang/IAGNet](https://github.com/yyvhang/IAGNet).
 
 ## 🔍 Citation <a name="9"></a> 
