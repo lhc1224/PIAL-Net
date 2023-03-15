@@ -11,7 +11,7 @@ The code will coming soon.
 8. [🔍 Citation](#10)
 
 ## 📎 Paper Link <a name="1"></a> 
-* Learning Affordance Grounding from Exocentric Images (CVPR2022) [[pdf]()] [[Supplementary Material]()]
+* Leverage Interactive Affinity for Affordance Learning (CVPR2023) [[pdf]()] [[Supplementary Material]()]
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
 
@@ -23,15 +23,16 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-**Observation.** By observing the exocentric diverse interactions, the human learns affordance knowledge determined by the object’s intrinsic properties and transfer it to the egocentric view.
+**Motivation.**  
+	
 
 <p align="center">
-    <img src="./img/Motivation.png" width="700"/> <br />
+    <img src="./img/motivation.jpg" width="700"/> <br />
     <em> 
     </em>
 </p>
 
-**Motivation.** (a) Exocentric interactions can be decomposed into affordance-specific features M and differences in individual habits E. (b) There are co-relations between affordances, e.g.“Cut with” inevitably accompanies “Hold” and is independent of the object category (knife and scissors). Such co-relation is common between objects. In this paper, we mainly consider extracting affordance-specific cues M from diverse interactions while preserving the affordance co-relations to enhance the perceptual capability of the network.
+**Interactive affinity.** (a) This paper explores the associations of interactable regions between diverse images by considering the context of contact regions with different body parts. (b) This paper considers leveraging the connection of human pose keypoints to alleviate the uncertainties due to interaction diversities and contact occlusions.
 
 
 ## 📖 Method <a name="3"></a> 
