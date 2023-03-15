@@ -39,22 +39,22 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
 ## 📖 Method <a name="3"></a> 
 
 <p align="center">
-    <img src="./img/method.png" width="800"/> <br />
+    <img src="./img/method.jpg" width="800"/> <br />
     <em> 
     </em>
 </p>
 
-**Overview of the proposed cross-view knowledge transfer affordance grounding framework.** It mainly consists of an Affordance Invariance Mining (AIM) module and an Affordance Co-relation Preservation (ACP) strategy. The AIM module (see in Sec. 3.1) aims to obtain invariant affordance representations from diverse exocentric interactions. The ACP strategy (see in Sec. 3.2) enhances the network’s affordance perception by aligning the co-relation of the outputs of the two views.
+**Overview of the proposed pose-aided interactive affinity learning framework.** Our model mainly consists of an interactive feature enhancement (IFE) module and a keypoint heuristic perception (KHP) scheme.
 
 ## 📂 Dataset <a name="4"></a> 
 
 <p align="center">
-    <img src="./img/dataset.png" width="800"/> <br />
+    <img src="./img/dataset.jpg" width="800"/> <br />
     <em> 
     </em>
 </p>
 
-**The properties of the AGD20K dataset.** (a) Some examples from the dataset. (b) The distribution of categories in AGD20K. (c) The word cloud distribution of affordances in AGD20K. (d) Confusion matrix between the affordance category and the object category in AGD20K, where the horizontal axis denotes the object category and the vertical axis denotes the affordance category.
+**Some examples and properties of Contact-driven Affordance Learning (CAL) dataset.** (a) Statistics on the quantity of interactive and non-interactive images in each affordance category. (b) Confusion matrix for each affordance category interacting with body parts. (c) Some examples of interactive and non-interactive images and annotations in the dataset.
 
 ## 📊 Experimental Results <a name="7"></a> 
 
