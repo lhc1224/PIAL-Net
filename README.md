@@ -23,7 +23,9 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-**Motivation.**  
+
+**Interactive affinity.** (a) This paper explores the associations of interactable regions between diverse images by considering the context of contact regions with different body parts. (b) This paper considers leveraging the connection of human pose keypoints to alleviate the uncertainties due to interaction diversities and contact occlusions.
+
 	
 
 <p align="center">
@@ -32,13 +34,12 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-**Interactive affinity.** (a) This paper explores the associations of interactable regions between diverse images by considering the context of contact regions with different body parts. (b) This paper considers leveraging the connection of human pose keypoints to alleviate the uncertainties due to interaction diversities and contact occlusions.
-
+**Motivation.**  (a) This paper explores the associations of interactable regions between diverse images by considering the context of contact regions with different body parts. (b) This paper considers leveraging the connection of human pose keypoints to alleviate the uncertainties due to interaction diversities and contact occlusions.
 
 ## 📖 Method <a name="3"></a> 
 
 <p align="center">
-    <img src="./img/Method.png" width="800"/> <br />
+    <img src="./img/method.png" width="800"/> <br />
     <em> 
     </em>
 </p>
