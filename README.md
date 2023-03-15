@@ -88,7 +88,7 @@ This project is for research purpose only, please contact us for the licence of 
 
 3.The paper "Learning Affordance Grounding from Exocentric Images" was accepted by CVPR22 and the corresponding paper and code are available from [[link](https://github.com/lhc1224/Cross-View-AG)].
 
-4.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from the [[link](https://github.com/yyvhang/IAGNet)].
+4.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and corresponding code are obtained from the [[link](https://github.com/yyvhang/IAGNet)].
 
 ## 🔍 Citation <a name="9"></a> 
 
