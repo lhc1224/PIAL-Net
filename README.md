@@ -53,7 +53,8 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     <em> 
     </em>
 </p>
-You can download the CAL dataset from [ [Google Drive] () | [Baidu Pan]() (g23n) ].
+
+You can download the CAL dataset from [ [Google Drive]() | [Baidu Pan]() (g23n) ].
 
 **Some examples and properties of Contact-driven Affordance Learning (CAL) dataset.** (a) Statistics on the quantity of interactive and non-interactive images in each affordance category. (b) Confusion matrix for each affordance category interacting with body parts. (c) Some examples of interactive and non-interactive images and annotations in the dataset.
 
