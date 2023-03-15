@@ -80,13 +80,13 @@ This project is for research purpose only, please contact us for the licence of 
 
 ## ✨ Other Relevant Works <a name="9"></a> 
 
-1.The paper "One-Shot Affordance Detection" was accepted by IJCAI2021 and the corresponding paper and code are available from [https://github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
+1.The paper "One-Shot Affordance Detection" was accepted by IJCAI2021 and the corresponding paper and code are available from  the [[link](https://github.com/lhc1224/OSAD_Net)].
 
 2.The paper "Phrase-Based Affordance Detection via Cyclic Bilateral Interaction" was accepted by IEEE Transactions on Artificial Intelligence (T-AI). The papers and code can be downloaded from the [[link](https://github.com/lulsheng/CBCE-Net)].
 
-3.The paper "Learning Affordance Grounding from Exocentric Images" was accepted by CVPR22 and the corresponding paper and code are available from [https://github.com/lhc1224/Cross-View-AG](https://github.com/lhc1224/Cross-View-AG).
+3.The paper "Learning Affordance Grounding from Exocentric Images" was accepted by CVPR22 and the corresponding paper and code are available from [[link](https://github.com/lhc1224/Cross-View-AG)].
 
-4.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from [https://github.com/yyvhang/IAGNet](https://github.com/yyvhang/IAGNet).
+4.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and the corresponding code are obtained from the [[link](https://github.com/yyvhang/IAGNet)].
 
 ## 🔍 Citation <a name="9"></a> 
 
