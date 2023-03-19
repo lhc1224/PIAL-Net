@@ -5,10 +5,10 @@ The code will coming soon.
 2. [💡 Abstract](#2)
 3. [📖 Method](#3)
 4. [📂 Dataset](#4)
-5. [📊 Experimental Results](#7)
-6. [✉️ Statement](#8)
-7. [✨ Other Relevant Works](#9)
-8. [🔍 Citation](#10)
+5. [📊 Experimental Results](#5)
+6. [✉️ Statement](#6)
+7. [✨ Other Relevant Works](#7)
+8. [🔍 Citation](#8)
 
 ## 📎 Paper Link <a name="1"></a> 
 * Leverage Interactive Affinity for Affordance Learning (CVPR2023) [[pdf]()] [[Supplementary Material]()]
@@ -54,11 +54,11 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-You can download the CAL dataset from [ [Google Drive]() | [Baidu Pan]() () ].
+You can download the CAL dataset from [ [Google Drive]() | [Baidu Pan](https://pan.baidu.com/s/1pANrZ36EIur_8hfH0vda4g) (ap83) ].
 
 **Some examples and properties of Contact-driven Affordance Learning (CAL) dataset.** (a) Statistics on the quantity of interactive and non-interactive images in each affordance category. (b) Confusion matrix for each affordance category interacting with body parts. (c) Some examples of interactive and non-interactive images and annotations in the dataset.
 
-## 📊 Experimental Results <a name="7"></a> 
+## 📊 Experimental Results <a name="5"></a> 
 
 <p align="center">
     <img src="./img/result1.jpg" width="800"/> <br />
@@ -77,10 +77,10 @@ You can download the CAL dataset from [ [Google Drive]() | [Baidu Pan]() () ].
 
 **Visualization of prediction results.** We show the visualization results of our model, few-shot segmentation (HSNet [33]), the best human pose estimation model (HRFormer [68]) and the segmentation model (SegFormer [61]).
 
-## ✉️ Statement <a name="8"></a> 
+## ✉️ Statement <a name="6"></a> 
 This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lhc12@mail.ustc.edu.cn](lhc12@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
 
-## ✨ Other Relevant Works <a name="9"></a> 
+## ✨ Other Relevant Works <a name="7"></a> 
 
 1.The paper "One-Shot Affordance Detection" was accepted by IJCAI2021 and the corresponding paper and code are available from  the [[link](https://github.com/lhc1224/OSAD_Net)].
 
@@ -90,7 +90,7 @@ This project is for research purpose only, please contact us for the licence of 
 
 4.The paper "Grounding 3D Object Affordance from 2D Interactions in Images" and corresponding code are obtained from the [[link](https://github.com/yyvhang/IAGNet)].
 
-## 🔍 Citation <a name="9"></a> 
+## 🔍 Citation <a name="8"></a> 
 
 ```
 @inproceedings{Leverageluo,
