@@ -11,7 +11,7 @@ The code will coming soon.
 8. [🔍 Citation](#8)
 
 ## 📎 Paper Link <a name="1"></a> 
-* Leverage Interactive Affinity for Affordance Learning (CVPR2023) [[pdf]()] [[Supplementary Material]()]
+* Leverage Interactive Affinity for Affordance Learning 
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
 
