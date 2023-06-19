@@ -1,6 +1,4 @@
 # PIAL-Net
-PyTorch implementation of our PIAL models. 
-The code will coming soon.
 1. [📎 Paper Link](#1)
 2. [💡 Abstract](#2)
 3. [📖 Method](#3)
@@ -11,7 +9,7 @@ The code will coming soon.
 8. [🔍 Citation](#8)
 
 ## 📎 Paper Link <a name="1"></a> 
-* Leverage Interactive Affinity for Affordance Learning 
+* Leverage Interactive Affinity for Affordance Learning  [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Leverage_Interactive_Affinity_for_Affordance_Learning_CVPR_2023_paper.pdf)]
 > Authors:
 > Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, Dacheng Tao
 
@@ -93,10 +91,12 @@ This project is for research purpose only, please contact us for the licence of 
 ## 🔍 Citation <a name="8"></a> 
 
 ```
-@inproceedings{Leverageluo,
-  title={Leverage Interactive Affinity for Affordance Learning},
-  author={Luo, Hongchen and Zhai, Wei and Zhang, Jing and Cao, Yang and Tao, Dacheng},
-  booktitle={CVPR},
-  year={2023}
+@InProceedings{Luo_2023_CVPR,
+    author    = {Luo, Hongchen and Zhai, Wei and Zhang, Jing and Cao, Yang and Tao, Dacheng},
+    title     = {Leverage Interactive Affinity for Affordance Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {6809-6819}
 }
 ```
