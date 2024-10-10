@@ -22,8 +22,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                     heatmap1[row, col] += 1.0
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap1[row, col] += 1.0
             heatmap1 = cv2.GaussianBlur(heatmap1, (k_size, k_size), 0)
             heatmap1=cv2.resize(heatmap1,(224,224))
@@ -41,8 +41,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                     heatmap2[row, col] += 1.0
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap2[row, col] += 1.0
             heatmap2 = cv2.GaussianBlur(heatmap2, (k_size, k_size), 0)
             heatmap2 = (heatmap2 - np.min(heatmap2)) / (np.max(heatmap2) - np.min(heatmap2) + 1e-10)
@@ -60,8 +60,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                     heatmap3[row, col] += 1.0
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap3[row, col] += 1.0
             heatmap3 = cv2.GaussianBlur(heatmap3, (k_size, k_size), 0)
             heatmap3 = (heatmap3 - np.min(heatmap3)) / (np.max(heatmap3) - np.min(heatmap3) + 1e-10)
@@ -79,8 +79,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                     heatmap4[row, col] += 1.0
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap4[row, col] += 1.0
             heatmap4 = cv2.GaussianBlur(heatmap4, (k_size, k_size), 0)
             heatmap4 = (heatmap4 - np.min(heatmap4)) / (np.max(heatmap4) - np.min(heatmap4) + 1e-10)
@@ -99,8 +99,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                 
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap5[row, col] += 1.0
                 
             heatmap5 = cv2.GaussianBlur(heatmap5, (k_size, k_size), 0)
@@ -119,8 +119,8 @@ def read_heatmap_json(json_file,k_ratio=3):
                     heatmap6[row, col] += 1.0
                 except:
                     # resize pushed it out of bounds somehow
-                    row = min(max(row, 0), json_data['image_width'] - 1)
-                    col = min(max(col, 0), json_data['image_height'] - 1)
+                    row = min(max(row, 0), json_data['image_height'] - 1)
+                    col = min(max(col, 0), json_data['image_width'] - 1)
                     heatmap6[row, col] += 1.0
             heatmap6 = cv2.GaussianBlur(heatmap6, (k_size, k_size), 0)
             heatmap6 = (heatmap6 - np.min(heatmap6)) / (np.max(heatmap6) - np.min(heatmap6) + 1e-10)
